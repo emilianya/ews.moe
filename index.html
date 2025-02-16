@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			html {
+				font-family: sans-serif;
+				color-scheme: dark light;
+			}
+			body {
+				padding: 0;
+				margin: 0;
+				background-color: white;
+			}
+			.nav {
+				background-color: #e6e6e6;
+			}
+			.ews-dark {
+				display: none;
+			}
+			@media (prefers-color-scheme: dark) {
+				body {
+					background-color: #121212;
+				}
+				.nav {
+					background-color: #3D3D3D;
+				}
+				.ews-dark {
+					display: unset;
+				}
+				.ews-light {
+					display: none;
+				}
+			}
+			.darkbox {
+				width: max-content;
+				padding: 0.8rem;
+				border-radius: 2px;
+				margin: 1rem;
+				background-color: #121212;
+			}
+			.x31 {
+				margin: 0.2rem;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="nav">
+			<img class="ews-light" height="48" src="ews.png" alt="Emilia Web Services" />
+			<img class="ews-dark" height="48" src="ews-dark.png" alt="Emilia Web Services" />
+		</div>
+		<div class="content">
+			<h2>Under (permanent) construction</h2>
+			<p>In the meantime, here are some 81x33s. Hotlink please</p>
+			<div class="darkbox">
+				<div style="color: white">
+					<p>Light version:</p>
+					<textarea style="height: 31px;width: 88px;border: none;resize:none;" onclick="this.focus();this.select()"><a href="https://ews.moe"><img src="https://ews.moe/ews88x31.png" alt=""/></a></textarea>
+					<img class="x31" src="ews88x31.png">
+				</div>
+				<div style="color: white">
+					<p>Dark version:</p>
+					<textarea style="height: 31px;width: 88px;border: none;resize:none;" onclick="this.focus();this.select()"><a href="https://ews.moe"><img src="https://ews.moe/ews88x31-dark.png" alt=""/></a></textarea>
+					<img class="x31" src="ews88x31-dark.png">
+				</div>
+			</div>
+			
+		</div>
+	</body>
+</html>
